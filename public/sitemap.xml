@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.danielezekiel.vercel.app/</loc>
-    <lastmod>2024-09-22</lastmod>
-  </url>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        <url>
+            <loc>https://danielezekiel.vercel.app/</loc>
+            <lastmod>2024-09-27T00:27:54+01:00</lastmod>
+            <priority>0.2</priority>
+        </url>
 </urlset>
