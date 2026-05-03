@@ -3,17 +3,10 @@ import SectionHeading from "../SectionHeading";
 import ToolBox from "../ToolBox";
 
 const allTools = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Figma",
-  "Tailwind",
-  "Git",
-  "GitHub",
-  "Tanstack Query",
+  "React.js", "Next.js", "TypeScript", "JavaScript",
+  "Tailwind CSS", "Node.js", "MySQL", "PHP",
+  "Python", "Transformers.js", "WordPress", "Webflow", "Git/GitHub",
+  "WCAG 2.1", "Agile/Scrum", "Jira/Trello", "REST APIs",
 ];
 
 const AboutSection = () => {
@@ -24,27 +17,16 @@ const AboutSection = () => {
     >
       <SectionHeading headingText='About Me' className='col-span-full' />
       <p className='font-light'>
-        Hi! My name is Daniel and I enjoy building things on the web. This
-        interest in Web development began during the lockdown period after I
-        completed by Industrial Training in Aircraft Maintenance Engineering
-        when I though about how some processes could be made easier just by
-        building solutions on the web for them.
-        <br />
-        <br />
-        Over time, I have had the privilege of working on multiple projects,
-        through which the skills I have acquired and my solution-oriented
-        personality are used to deliver efficient, accessible, creative
-        solutions and experiences to one and all.
-        <br />
-        <br />
-        I have a Bachelor&apos;s degree in Mechanical Engineering and for my
-        final thesis, I completed a published research paper during my
-        undergraduate program titled &apos;Geometrical Attenuation of Shockwaves
-        using rigid obstacle matrices&apos;.
-        <br />
-        <br />
-        Outside my regular developer routine, I enjoy listening to music, gaming
-        or reading about space and technology.
+        Hi, I&apos;m Daniel, a Full-Stack Developer with a background in Mechanical Engineering and hands-on experience deploying enterprise-scale renewable energy systems. That cross-disciplinary foundation shapes how I approach software: I build for real constraints, real compliance requirements, and real users.
+        <br/>
+        <br/>
+        My most recent work includes architecting a privacy-preserving hybrid inference system for financial contract analysis (my MSc thesis at the University of the West of Scotland), engineering a React/TypeScript air travel justification tool now accessible to 300+ UK and Ireland educational institutions through the Scottish Tech Army, and co-leading the &apos;A Renewable Scotland&apos; solar calculator that secured 2nd place in the UNIFORCE 2025 Sustainability Challenge.
+        <br/>
+        <br/>
+        I&apos;m currently completing my MSc in Information Technology with Web Development at UWS (Expected June 2026), open to Full-Stack Developer roles, particularly in GreenTech, FinTech, RegTech, or civic tech.
+        <br/>
+        <br/>
+        Outside of coding, you&apos;ll find me exploring AI research, reading about sustainable energy systems, or thinking about how privacy-preserving technology can be made more accessible.
       </p>
 
       <div className='xl:ml-10'>

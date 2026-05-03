@@ -21,7 +21,7 @@ const ContactSection = () => {
           social media using the social icons.
         </p>
         <Button
-          href='mailto:dbezekiel77@gmail.com'
+          href='mailto:dbezekiel88@gmail.com'
           text='Contact me'
           hasHover={false}
           className='w-fit mx-auto mt-4'

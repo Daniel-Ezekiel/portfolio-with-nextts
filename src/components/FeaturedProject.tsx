@@ -16,10 +16,10 @@ const FeaturedProject = ({
 }: projectTypes) => {
   return (
     <div
-      className={`mb-5 bg-blue-500 rounded-xl overflow-hidden shadow-lg lg:relative lg:h-[35rem] lg:mb-10 lg:bg-transparent lg:shadow-none lg:grid lg:grid-cols-2 lg:gap-3`}
+      className={`mb-5 bg-blue-500 rounded-xl overflow-hidden shadow-lg lg:relative lg:h-[35rem] lg:mb-10 lg:overflow-visible lg:bg-transparent lg:shadow-none lg:grid lg:grid-cols-2 lg:gap-3`}
     >
       <Link
-        href={liveUrl as string}
+        href={(liveUrl || githubUrl) as string}
         target='_blank'
         className={`relative lg:h-full ${
           id % 2 ? "trapezoid-odd-left" : "trapezoid-even-right"
@@ -48,7 +48,7 @@ const FeaturedProject = ({
           } lg:py-6 lg:p-3 lg:bg-blue-500 lg:shadow-2xl`}
         >
           <span className='font-light uppercase'>Project #{id}</span>
-          <Link href={liveUrl as string} target='_blank'>
+          <Link href={(liveUrl || githubUrl) as string} target='_blank'>
             <h4 className='font-bold uppercase text-[2rem] text-transparent bg-gradient-linear-100 bg-clip-text'>
               {title}
             </h4>
@@ -58,13 +58,13 @@ const FeaturedProject = ({
             <SocialIcon href={githubUrl as string} title='Github Repo Link'>
               <FaGithub className='h-12 w-12 hover:animate-bounce' />
             </SocialIcon>
-            <SocialIcon href={liveUrl as string} title='Live preview Link'>
+            {liveUrl && <SocialIcon href={liveUrl as string} title='Live preview Link'>
               <FaLink className='h-12 w-12 hover:animate-bounce' />
-            </SocialIcon>
+            </SocialIcon>}
           </div>
         </div>
         <p
-          className={`w-fit mt-4 font-semibold text-transparent bg-gradient-linear-200 bg-clip-text lg:mt-2 lg:w-[82%] ${
+          className={`w-fit mt-4 font-semibold text-sm text-transparent bg-gradient-linear-200 bg-clip-text lg:mt-2 lg:w-[85%] ${
             id % 2 && "lg:ml-auto lg:text-right"
           }`}
         >

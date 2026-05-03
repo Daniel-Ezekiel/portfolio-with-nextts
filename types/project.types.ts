@@ -4,6 +4,6 @@ export interface projectTypes {
   description: string;
   imageSrc?: string;
   tools: string[];
-  githubUrl?: string;
-  liveUrl?: string;
+  githubUrl?: string | boolean;
+  liveUrl: string | boolean;
 }

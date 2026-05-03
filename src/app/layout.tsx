@@ -5,16 +5,23 @@ import "./globals.css";
 // const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Daniel Ezekiel - Portfolio",
+  title:
+    "Daniel Ezekiel — Full-Stack Developer | GreenTech · RegTech · FinTech",
   description:
-    "Daniel Ezekiel is a Frontend Developer who specializes in passionately delivering characteristic web solutions and experiences with code.",
+    "Full-Stack Developer building privacy-preserving web applications for GreenTech, RegTech, and civic tech. MSc IT student at UWS. React, TypeScript, Next.js, Node.js, Python.",
   applicationName: "Daniel Ezekiel Portfolio website",
   referrer: "origin-when-cross-origin",
   keywords: [
     "Daniel Ezekiel",
     "Daniel Boluwatife Ezekiel",
     "Daniel Ezekiel Portfolio",
-    "Daniel Ezekiel Frontend Developer",
+    "Daniel Ezekiel Full-Stack Developer",
+    "Full-Stack Developer",
+    "GreenTech",
+    "RegTech",
+    "Privacy Engineering",
+    "Scottish Tech Army",
+    "UWS",
   ],
   creator: "Daniel Boluwatife Ezekiel",
 
@@ -48,11 +55,11 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Daniel Ezekiel - Frontend Developer",
+    title: "Daniel Ezekiel — Full-Stack Developer | GreenTech · RegTech · FinTech",
     description:
-      "Daniel Ezekiel is a Frontend Developer who specializes in passionately delivering characteristic web solutions and experiences with code.",
+      "Full-Stack Developer building privacy-preserving web applications for GreenTech, RegTech, and civic tech. MSc IT student at UWS. React, TypeScript, Next.js, Node.js, Python.",
     url: "https://danielezekiel.vercel.app",
-    siteName: "Daniel Ezekiel - Portfolio website",
+    siteName: "Daniel Ezekiel - Portfolio",
     images: [
       {
         url: "/images/og-image.png",
@@ -72,7 +79,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Daniel Ezekiel - Frontend Developer",
+    title: "Daniel Ezekiel — Full-Stack Developer",
     description:
       "Daniel Ezekiel is a Frontend Developer who specializes in passionately delivering characteristic web solutions and experiences with code.",
     // siteId: '1467726470533754880',
@@ -88,9 +95,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'>
-      <body className='font-inter text-base'>{children}</body>
+    <html lang="en">
+      <body className="font-inter text-base">{children}</body>
     </html>
   );
 }
-
