@@ -3,6 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { Quicksand } from "next/font/google";
 import { IoClose, IoMenuOutline } from "react-icons/io5";
+import Image from "next/image";
 const redHat = Quicksand({ subsets: ["latin"] });
 
 const Header: React.FC = () => {
@@ -15,7 +16,7 @@ const Header: React.FC = () => {
           href="/"
           className={`${redHat.className} max-w-fit flex flex-col gap-1 text-xl uppercase tracking-widest`}
         >
-          <img src="/site_logo.png" alt="Daniel's Site Logo" className="w-36" />
+          <Image src="/site_logo.png" width={105} height={105} alt="Daniel's Site Logo" />
         </Link>
 
         <ul
